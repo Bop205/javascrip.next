@@ -70,3 +70,58 @@ nav a {
   margin-right: 14px;
   border: none;
 }
+.banner {
+  background-color: #f5f7fa;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 96px;
+  padding-right: 80px;
+  padding-bottom: 96px;
+  padding-left: 80px;
+}
+.banner-content h1 {
+  font-size: 60px;
+  color: #2c2727;
+  margin-right: 60px;
+}
+.banner-content h1 span {
+  color: #4caf4f;
+}
+.banner-content p {
+  margin: 20px 0;
+  color: #888;
+}
+.banner-content button {
+  background: #4caf4f;
+  color: #f5f7fa;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+}
+.banner-img img {
+  width: 391px;
+  height: 407px;
+  margin-left: 60px;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.dots span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 3px;
+}
+.dots .active {
+  background-color: #4caf4f;
+}
